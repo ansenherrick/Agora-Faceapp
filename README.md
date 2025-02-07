@@ -15,3 +15,7 @@ Then copy over the app id, channel name, and token to the main.js file
 
 After setting up Agora, sign up for Ngrok and unzip the .exe file and place it into your main directory
 To enable Ngrok, run "./ngrok http 5500" this will run a secure (https) server on port 5500 so other devices can connect to your network
+
+To Run the python server run this code "python -m http.server 5500"
+
+with both of these servers running you should be able to connect using your ngrok port
